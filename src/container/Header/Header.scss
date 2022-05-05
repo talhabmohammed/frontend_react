@@ -1,6 +1,6 @@
 #home {
   position: relative;
-  background: url("../../assets/bgIMG.png");
+  // background: url("https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -20,7 +20,7 @@
   height: 100%;
   flex-direction: row;
 
-  padding: 6rem 2rem 0;
+  padding: 4rem 2rem 0;
 
   @media screen and (min-width: 2000px) {
     padding-top: 8rem;
@@ -48,6 +48,7 @@
 }
 
 .app__header-badge {
+  padding-top: 2rem;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -62,7 +63,7 @@
     flex-direction: row;
     width: auto;
 
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
   }
 
   .tag-cmp {

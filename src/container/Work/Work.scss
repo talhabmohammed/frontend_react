@@ -53,7 +53,7 @@
     margin: 2rem;
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: #fff;
+    background-color: black;
     color: #000;
 
     cursor: pointer;
@@ -99,7 +99,7 @@
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.65);
 
   border-radius: 0.5rem;
   opacity: 0;
@@ -142,7 +142,7 @@
 
     padding: 0.4rem 1rem;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: black;
     top: -25px;
   }
 }
