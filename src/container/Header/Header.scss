@@ -1,6 +1,6 @@
 #home {
   position: relative;
-  background: url("../../assets/bgIMG.png");
+  background: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80");
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -20,7 +20,7 @@
   height: 100%;
   flex-direction: row;
 
-  padding: 6rem 2rem 0;
+  padding: 4rem 2rem 0;
 
   @media screen and (min-width: 2000px) {
     padding-top: 8rem;
@@ -48,6 +48,7 @@
 }
 
 .app__header-badge {
+  padding-top: 2rem;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -62,7 +63,7 @@
     flex-direction: row;
     width: auto;
 
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
   }
 
   .tag-cmp {
